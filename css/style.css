@@ -1,6 +1,58 @@
 /* Reset  */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+
+body {
+    font-family: 'Fredoka One', cursive;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#main-title {
+    text-align: center;
+    color: #e53170;
+    margin-top: 30px;
+}
+
+.card {
+    width: calc(100% / 3 - 20px) ;
+    height: 70px;
+    background-color: red;
+    
+
+}
+
+#carta2,#carta5 {
+    margin-left: 30px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+h1,p,.card{
+    margin-bottom: 40px;
+}
+
+
+
+
+
