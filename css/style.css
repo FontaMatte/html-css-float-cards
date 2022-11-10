@@ -18,9 +18,12 @@ body {
 
 /* Titolo della pagina */
 #main-title {
-    text-align: center;
     color: #e53170;
     margin-top: 30px;
+}
+
+p , #main-title{
+    text-align: center;
 }
 
 /* Dimensionamento carte */
