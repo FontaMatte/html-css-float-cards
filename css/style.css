@@ -26,7 +26,6 @@ body {
 /* Dimensionamento carte */
 .card {
     width: calc(100% / 3 - 20px) ;
-    height: 80px;
     background-color: black;
     color: white;
     
@@ -57,6 +56,22 @@ h1,p,.card{
 
 img {
     height: 80px;
+}
+
+a {
+    color: #41b4df;
+    text-decoration: none;
+}
+
+/* Posizionamento info lavoratore */
+.employ-info {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+/* Grandezza "Lavoro" e "Mail" */
+span,a {
+    font-size: 12px;
 }
   
 
