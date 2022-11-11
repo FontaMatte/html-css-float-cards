@@ -29,13 +29,14 @@ p , #main-title{
 /* Dimensionamento carte */
 .card {
     width: calc(100% / 3 - 20px) ;
-    background-color: black;
+    background-color: #0f0e17;
     color: white;
+    float: left;
     
 
 }
 /* Equidistanzio le carte  */
-#carta2,#carta5 {
+.card:nth-child(3n+2) {
     margin-left: 30px;
 }
 
